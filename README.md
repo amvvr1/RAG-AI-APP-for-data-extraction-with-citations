@@ -1,27 +1,31 @@
-<<<<<<< HEAD
-=======
-# RAG-AI-Chatbot-for-data-extraction-with-citations
-
-An intelligent document analysis application that allows users to upload their documents and ask questions about their content. The system provides accurate answers with source attribution and zero hallucinations, showing exactly which document the information came from.
-
-## VIDEO DEMO
+<h1 align="center">AI DOCUMENT ASSISTANT</h1>
+<h3 align="center">Ask Questions and get Answers Instantly</h3>
 
 
-https://github.com/user-attachments/assets/f0d5a5c6-a9b3-4963-a545-84f34423bd57
+![alt text]({0612CB9A-C559-4BE2-B077-84C6039158CD}.png)
 
 
+## What it does
+Most businesses sit on a goldmine of information locked inside PDFs, reports, and contracts that nobody has time to read. This app lets you upload any document and simply ask it questions in plain language. 
 
-## FEATURES
+You get instant, accurate answers along with the exact source it pulled the information from,
 
-- **Document Import:** Upload and process multiple document formats
-- **Intelligent Q&A:** Ask natural language questions about your documents
-- **Source Attribution:** Every answer includes the specific file from which the information was extracted
-- **Vector Search:** Powered by embeddings for accurate semantic search
-- **Fast Responses:** Optimized query engine for quick results
+## Live Demo
 
+
+## Real World Use Cases
+- A business owner analyzing client reports
+- A law firm searching through contracts instantly
+- An HR team querying internal policies
+- A person searching for information in their personal docs
+
+
+## What makes it valuable
+- reduce search time from hours to seconds
+- seach multiple documets simultaneously
+- get answers with the exact sources they were pulled from
 
 ## Tech Stack
-
 - **Frontend**: React
 - **Backend API**: Python FastAPI
 - **Vector Database**: ChromaDB
@@ -30,14 +34,7 @@ https://github.com/user-attachments/assets/f0d5a5c6-a9b3-4963-a545-84f34423bd57
 - **RAG Pipeline**: Custom retrieval-augmented generation implementation
 
 
-### Prerequisites
-
-- Node.js (v14 or higher)
-- Python 3.11
-- OpenAI API key
-
-### Installation
-
+## Run Locally
 1. Clone the repository
 ```bash
 git clone https://github.com/amvvr1/QnA-APP.git
@@ -70,29 +67,7 @@ uvicorn app.main:app --reload
 npm start
 ```
 
-## Usage
-
-1. Upload your documents using the import interface
-2. Wait for the documents to be processed and embedded
-3. Ask questions about your documents in natural language
-4. Receive answers with source file attribution
-
-## Architecture
-
-The application uses a Retrieval-Augmented Generation (RAG) architecture:
-
-1. Documents are chunked and converted to embeddings using OpenAI's embedding model
-2. Embeddings are stored in ChromaDB for efficient vector similarity search
-3. User queries are embedded and matched against stored document embeddings
-4. LlamaIndex orchestrates the retrieval and response generation process
-5. Responses include citations showing the source document
-
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## Contact
+**Email:**  scholarammar@gmail.com
 
-- **email:** scholarammar@gmail.com
->>>>>>> 457f5a40f5d0d2aa33efd05f3acd55f175564b89
+
