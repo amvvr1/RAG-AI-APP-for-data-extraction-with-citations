@@ -25,7 +25,7 @@ function FileUpload({ onFilesUploaded, onNext }) {
 
         try {
             setUploadStatus('Uploading...');
-            const response = await fetch('https://docuapp-gbe3fyfae6c9bth6.centralus-01.azurewebsites.net/uploadmultiplefiles', {
+            const response = await fetch('http://localhost:8000/uploadmultiplefiles', {
                 method: 'POST',
                 body: formData,
             });

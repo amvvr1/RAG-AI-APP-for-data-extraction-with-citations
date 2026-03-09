@@ -4,6 +4,6 @@ chroma_db/
 
 .env
 
-venv/
+.venv/
 
 backend.zip

@@ -16,7 +16,7 @@ function QuestionAnswer({ onNext }) {
         setDocumentName('');
 
         try {
-            const response = await fetch('https://docuapp-gbe3fyfae6c9bth6.centralus-01.azurewebsites.net/questions/', {
+            const response = await fetch('http://localhost:8000/questions/', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

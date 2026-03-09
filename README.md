@@ -2,8 +2,7 @@
 <h3 align="center">Ask Questions and get Answers Instantly</h3>
 
 
-<img width="1858" height="968" alt="qna" src="https://github.com/user-attachments/assets/8a5f652d-c21d-4f06-8b4f-9aed9c601f8f" />
-
+![alt text]({0612CB9A-C559-4BE2-B077-84C6039158CD}.png)
 
 
 ## What it does
@@ -11,12 +10,7 @@ Most businesses sit on a goldmine of information locked inside PDFs, reports, an
 
 You get instant, accurate answers along with the exact source it pulled the information from,
 
-## Video Demo
-
-https://github.com/user-attachments/assets/875701e3-8cc0-4869-8ac1-364082830628
-
-## Live link: try it out for yorself
-
+## Live Demo
 
 
 ## Real World Use Cases
@@ -75,5 +69,4 @@ npm start
 
 ## Contact
 **Email:**  scholarammar@gmail.com
-
 

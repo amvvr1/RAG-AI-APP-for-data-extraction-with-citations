@@ -27,6 +27,10 @@ engine = None
 
 query_engine = QueryEngine()
 
+@app.get("health")
+def health():
+    return {"status" : "running perfectly good"}
+
 @app.post("/uploadmultiplefiles")
 def create_upload_files(files: List[UploadFile] = File(...)):
     global engine
