@@ -14,7 +14,7 @@ from slowapi.errors import RateLimitExceeded
 app = FastAPI()
 
 app.add_middleware(CORSMiddleware,
-    allow_origins=["https://qna-app-nine.vercel.app/"], 
+    allow_origins=["*"], 
     allow_methods=["*"],
     allow_headers=["*"],
 )
